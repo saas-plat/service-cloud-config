@@ -1,10 +1,11 @@
 {
   "name": "service-cloud-config",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "nodejs cloud service config",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --registry http://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
   "license": "ISC",
   "dependencies": {
     "consul": "^0.23.0",
-    "doc-path": "^1.0.7",
     "lodash": "^4.1.0"
   }
 }
