@@ -1,6 +1,6 @@
 {
   "name": "service-cloud-config2",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "nodejs cloud service config",
   "main": "./lib/index.js",
   "scripts": {
